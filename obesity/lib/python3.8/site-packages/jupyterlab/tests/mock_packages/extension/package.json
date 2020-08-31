@@ -1,0 +1,11 @@
+{
+  "name": "@jupyterlab/mock-extension",
+  "version": "2.2.3",
+  "private": true,
+  "dependencies": {
+    "@jupyterlab/launcher": "^2.2.3"
+  },
+  "jupyterlab": {
+    "extension": true
+  }
+}
