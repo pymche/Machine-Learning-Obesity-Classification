@@ -16,12 +16,12 @@ Details of the questions and possible answers collected for the data can be foun
 
 ## Preparing the data for exploratory analysis
 
-The values of some of the attributes from the original data set are numerical and does not describe the actual answers provided by individuals. In order to visualise the data, I have assigned the corresponding answer of each numerical value and temporary transformed the entire data set into a categorical data for plotting.
+The values of some of the attributes from the original data set are numerical and does not describe the actual answers provided by individuals. In order to visualise the data, I have assigned the corresponding answer to each numerical value and temporary transformed the entire data set into a categorical data for plotting.
 
 ## Preprocessing the data
 
 In the original data set, there are numerical (both continuous and discrete) and categorical (including ordinal, non-ordinal and binary - i.e. yes & no) data.
-Imputation is used in both numerical and categorical data to fill in missing data. Feature scaling is employed for continuous numerical values, including age, weight and height; Ordinal and Label Encoding are used for non-ordinal categorical data, such as transportation used and obesity level, while One Hot Encoding is applied to data which is ordinal in nature (e.g. never, sometimes, always). 
+Imputation is used in both numerical and categorical data to fill in missing values. Feature scaling is employed for continuous numerical values, including age, weight and height; Ordinal and Label Encoding are used for non-ordinal categorical data, such as transportation used and obesity level, while One Hot Encoding is applied to data which is ordinal in nature (e.g. never, sometimes, always). 
 
 All of the above preprocessing procedures are bundled into a pipeline, which also applies multiple models on the data set in search for the best model.
 
