@@ -37,3 +37,6 @@ All of the above preprocessing procedures are bundled into a pipeline, which als
 * Support Vector Machine
 
 A classification report of each model is also included.
+
+
+First commit: 1st September, 2020
