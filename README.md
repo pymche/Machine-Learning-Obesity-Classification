@@ -1,5 +1,7 @@
 # Obesity-Classification
 
+[Link to Report](https://github.com/pymche/Machine-Learning-Obesity-Classification/blob/master/Obesity_Classification.ipynb)
+
 Prediction of levels of obesity by using machine learning classification models.
 
 Data collected from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition+). Official publication of the research that provides data can be accessed from [here](https://www.sciencedirect.com/science/article/pii/S2352340919306985?via%3Dihub).
@@ -35,3 +37,6 @@ All of the above preprocessing procedures are bundled into a pipeline, which als
 * Support Vector Machine
 
 A classification report of each model is also included.
+
+
+First commit: 1st September, 2020
